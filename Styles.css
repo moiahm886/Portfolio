@@ -1,0 +1,174 @@
+body{
+    background-color: #181717;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body#portfolio{
+    background-image: url('final.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: multiply;
+}
+.content {
+    max-width: 850px;
+    margin: 40px auto;
+    padding: 25px;
+}
+.content h1 {
+    text-align: center;
+}
+
+.content p {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+#hello{
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-family: "Arial Black",Arial,serif;
+}
+p{
+    color:white;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-family: "Helvetica Neue", Helvetica, Arial, serif;
+}
+    #myself {
+    text-align: center;
+    color:white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height:50vh;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius:8px;
+}
+.contact-button,
+.linkedin-button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 5px;
+    background-color: #1c1313;
+    color: white;
+}
+.contact-button:hover{
+    color:wheat;
+    font-weight: bold;
+}
+.linkedin-button:hover{
+    color:wheat;
+    font-weight: bold;
+}
+.nav-tabs {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+.nav-tabs li {
+    display: inline;
+}
+
+.nav-tabs li a {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-tabs li a:hover {
+    background-color: red;
+}
+.dropdown {
+    position: relative;
+    display: flex;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    z-index: 1;
+    background-color: #000000;
+    padding: 10px;
+    border: 1px solid #651f1f;
+    text-align: center;
+}
+
+.dropdown.show .dropdown-content {
+    display: block;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #b22d2d;
+    border-radius: 4px;
+}
+
+a {
+    font-style:italic;
+    color: #ffffff;
+
+}
+
+a:hover {
+
+    text-decoration: underline;
+}
+.buttons .dropdown .form-group{
+
+}
+.nav-tabs .active {
+    color: blueviolet;
+}
+.container .skill-section{
+    color: #ffffff;
+    padding-left:20px;
+}
+h2{
+    color: #a0a0a9;
+    text-decoration: underline;
+    font-style: oblique;
+}
+h2:hover{
+    color:wheat;
+}
+.container .skill-section p{
+    max-width: 850px;
+}
+.education-section ul{
+    list-style: disc;
+    color: #a0a0a9;
+}
+.education-section ul:hover {
+    color:wheat;
+}
+
+
+
